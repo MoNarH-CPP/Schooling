@@ -3,6 +3,7 @@ var
 Numbers: array[1 .. 5] of integer;
 Sum_of_array_number, i: integer;
 Begin
+  Sum_of_array_number := 0;
   for i:= 1 to 5 do
   begin
     Invalid_input:;
